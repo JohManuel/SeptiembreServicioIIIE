@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.idat.SetiembreIIIE.model.Producto;
 import com.idat.SetiembreIIIE.repository.ProductoRepository;
+
 @Service
 public class ProductoServiceImpl implements ProductoService {
 	@Autowired
@@ -36,13 +37,13 @@ public class ProductoServiceImpl implements ProductoService {
 	@Override
 	public List<Producto> listar() {
 		// TODO Auto-generated method stub
-		return null;
+		return repositorio.listar();
 	}
 
 	@Override
 	public Producto obtener(Integer id) {
 		// TODO Auto-generated method stub
-		return null;
+		return repositorio.obtener(id);
 	}
 
 }

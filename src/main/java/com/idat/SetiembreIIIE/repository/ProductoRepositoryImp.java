@@ -3,11 +3,12 @@ package com.idat.SetiembreIIIE.repository;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Repository;
+
 
 import com.idat.SetiembreIIIE.model.Producto;
-@Service
 
+@Repository
 public class ProductoRepositoryImp implements ProductoRepository {
 
 	List<Producto> almacenamiento = new ArrayList<>();
