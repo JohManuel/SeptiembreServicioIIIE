@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.idat.SetiembreIIIE.model.Producto;
-import com.idat.SetiembreIIIE.repository.ProductoRepository;
 import com.idat.SetiembreIIIE.service.ProductoService;
 
 @RestController
